@@ -9,7 +9,7 @@ dotenv_path = os.path.join(os.path.dirname(__file__), '../.env')
 print(dotenv_path)
 load_dotenv(dotenv_path)
 
-# to much
+# to much to do
 def main():
     """
     Handles the initial launch of the program (entry point).
