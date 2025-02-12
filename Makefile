@@ -17,7 +17,7 @@ make deploy:
 	@echo "Deploying the project..." 
 	chmod +x deploy.sh
 	./deploy.sh
-	docker run -d -p 8098:80 alomdo/deus_bot
+	docker run -d -p 8099:80 alomdo/deus_bot
 
 serve:
 	@echo "Starting development server..."
